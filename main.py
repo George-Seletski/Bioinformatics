@@ -54,3 +54,4 @@ class Xml2Obj(object):
         Parser.CharacterDataHandler = self.CharacterData
         ParserStatus = Parser.Parse(open(filename).read(), 1)
         return self.root
+
